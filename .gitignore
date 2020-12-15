@@ -1,0 +1,4 @@
+"glob * example: *.txt will ignore all file.txt
+secrets.txt
+shell.log
+public/
