@@ -1,0 +1,85 @@
+
+/*Bluish*/
+/* Color Theme Swatches in Hex */
+.bluish-1-hex { color: #30465E; }
+.bluish-2-hex { color: #9FBFE3; }
+.bluish-3-hex { color: #71A4DE; }
+.bluish-4-hex { color: #4C5763; }
+.bluish-5-hex { color: #577FAC; }
+
+/* Color Theme Swatches in RGBA */
+.bluish-1-rgba { color: rgba(48, 70, 94, 1); }
+.bluish-2-rgba { color: rgba(159, 191, 227, 1); }
+.bluish-3-rgba { color: rgba(113, 164, 222, 1); }
+.bluish-4-rgba { color: rgba(76, 87, 99, 1); }
+.bluish-5-rgba { color: rgba(87, 127, 172, 1); }
+
+/* Color Theme Swatches in HSLA */
+.bluish-1-hsla { color: hsla(211, 32, 27, 1); }
+.bluish-2-hsla { color: hsla(211, 54, 75, 1); }
+.bluish-3-hsla { color: hsla(211, 62, 65, 1); }
+.bluish-4-hsla { color: hsla(211, 13, 34, 1); }
+.bluish-5-hsla { color: hsla(211, 33, 50, 1); }
+/*Mint*/
+/* Color Theme Swatches in Hex */
+.mint-1-hex { color: #477E80; }
+.mint-2-hex { color: #DBFEFF; }
+.mint-3-hex { color: #8FFBFF; }
+.mint-4-hex { color: #048387; }
+.mint-5-hex { color: #73C9CC; }
+
+/* Color Theme Swatches in RGBA */
+.mint-1-rgba { color: rgba(71, 126, 128, 1); }
+.mint-2-rgba { color: rgba(219, 254, 255, 1); }
+.mint-3-rgba { color: rgba(143, 251, 255, 1); }
+.mint-4-rgba { color: rgba(4, 131, 135, 1); }
+.mint-5-rgba { color: rgba(115, 201, 204, 1); }
+
+/* Color Theme Swatches in HSLA */
+.mint-1-hsla { color: hsla(182, 28, 39, 1); }
+.mint-2-hsla { color: hsla(181, 100, 92, 1); }
+.mint-3-hsla { color: hsla(182, 100, 78, 1); }
+.mint-4-hsla { color: hsla(181, 94, 27, 1); }
+.mint-5-hsla { color: hsla(182, 46, 62, 1); }
+/*Dark*/
+/* Color Theme Swatches in Hex */
+.dark-1-hex { color: #36333A; }
+.dark-2-hex { color: #2E2D30; }
+.dark-3-hex { color: #111012; }
+.dark-4-hex { color: #3C4347; }
+.dark-5-hex { color: #2A2F33; }
+
+/* Color Theme Swatches in RGBA */
+.dark-1-rgba { color: rgba(54, 51, 58, 1); }
+.dark-2-rgba { color: rgba(46, 45, 48, 1); }
+.dark-3-rgba { color: rgba(17, 16, 18, 1); }
+.dark-4-rgba { color: rgba(60, 67, 71, 1); }
+.dark-5-rgba { color: rgba(42, 47, 51, 1); }
+
+/* Color Theme Swatches in HSLA */
+.dark-1-hsla { color: hsla(265, 6, 21, 1); }
+.dark-2-hsla { color: hsla(259, 3, 18, 1); }
+.dark-3-hsla { color: hsla(270, 5, 6, 1); }
+.dark-4-hsla { color: hsla(201, 8, 25, 1); }
+.dark-5-hsla { color: hsla(206, 9, 18, 1); }
+/*Earth*/
+/* Color Theme Swatches in Hex */
+.dod.dirt-1-hex { color: #E8C890; }
+.dod.dirt-2-hex { color: #AC9978; }
+.dod.dirt-3-hex { color: #9C8660; }
+.dod.dirt-4-hex { color: #E8D5B5; }
+.dod.dirt-5-hex { color: #706045; }
+
+/* Color Theme Swatches in RGBA */
+.dod.dirt-1-rgba { color: rgba(232, 200, 144, 1); }
+.dod.dirt-2-rgba { color: rgba(172, 153, 120, 1); }
+.dod.dirt-3-rgba { color: rgba(156, 134, 96, 1); }
+.dod.dirt-4-rgba { color: rgba(232, 213, 181, 1); }
+.dod.dirt-5-rgba { color: rgba(112, 96, 69, 1); }
+
+/* Color Theme Swatches in HSLA */
+.dod.dirt-1-hsla { color: hsla(38, 65, 73, 1); }
+.dod.dirt-2-hsla { color: hsla(38, 23, 57, 1); }
+.dod.dirt-3-hsla { color: hsla(38, 23, 49, 1); }
+.dod.dirt-4-hsla { color: hsla(37, 52, 80, 1); }
+.dod.dirt-5-hsla { color: hsla(37, 23, 35, 1); }

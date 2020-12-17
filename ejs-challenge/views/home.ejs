@@ -1,6 +1,14 @@
 <%- include partials\header.ejs %>
 
 <h1>Home</h1>
+
 <p> <%= StartingContent %> </p>
+
+<% posts.forEach(function(post){ %>
+  <div class="item">
+    <h2><%= post.title %></h2>
+    <p><%= post.body %></p>
+  </div>
+    <% }); %>
 
 <%- include partials\footer.ejs %>
