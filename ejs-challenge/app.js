@@ -22,6 +22,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 let posts = [];
+// let previews = [];
 app.get("/", function(req, res) {
   res.render("home", {
     StartingContent: homeStartingContent,
@@ -44,8 +45,9 @@ app.get("/compose", function(req, res) {
 app.post("/compose", function(req, res) {
   const post = {
     title: req.body.postTitle,
-    body: req.body.postBody
+    body: req.body.postBody,
   };
+  // previews.push(_.truncate(post.body, {'length': 80}));
   posts.push(post);
   res.redirect("/");
 });
@@ -55,14 +57,20 @@ app.get("/posts/:postName", function (req, res) {
   posts.forEach(function(post){
     const storedTitle = _.lowerCase(post.title);
     if ( storedTitle === requestedTitle ) {
-      console.log("Match found");
-    }else{
-      console.log("URI available");
-    }
+      res.render("post", {
+        title: post.title,
+        content: post.body,
+      });
 
+    };
   });
  });
 
 app.listen(3000, function() {
   console.log("Server listening on port 3000");
 });
+
+// var length = 3;
+// var myString = "ABCDEFG";
+// var myTruncatedString =
+ // content.substring(0,15);
